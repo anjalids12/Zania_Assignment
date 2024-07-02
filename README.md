@@ -3,7 +3,7 @@
 
 Following are steps that I used to build this project:
 
-1. Text Extraction from each page of the PDF and stored into dataframe with it page number and page text.
+1. Text Extraction from each page of the PDF and stored into dataframe with its page number and page text.
 2. Find the embeddings of each page using the pre-trained sentence-transformer model.
 3. Find the embedding of the given question.
 4. Find the cosine similarity of the question embedding (got in 3) and each page embedding(got in 2).
